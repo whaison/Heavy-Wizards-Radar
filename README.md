@@ -2,7 +2,7 @@
 
 The most comprehensive radar & mini-map system we could think of.
 
-[![Heavy Wizards Radar Trailer](https://img.youtube.com/vi/K-1kpFTDVMc/0.jpg)](https://www.youtube.com/watch?v=K-1kpFTDVMc)
+[![Heavy Wizards Radar Trailer](/images/YoutubeTrailer.png)](https://www.youtube.com/watch?v=K-1kpFTDVMc)
 
 This is the official repository for the **Heavy Wizards Radar** plugin for the **Unreal Engine 4**.
 It contains all the documentation, tutorials, examples and external links necessary for a successful integration into your own game project.
@@ -119,3 +119,5 @@ Both the UCanvasPanelSlot and the material are destroyed if *ShouldPointToActor*
 *	*ShouldRotate* signals whether an actor’s representation on a map should be rotated.
 *	*ShouldRotateMap* signals whether the representation of this particular map should rotate around pivot.
 *	*ShouldMoveMap* signals whether the representation of this particular map should move together with the pivot.
+
+[![Heavy Wizards Radar Forum Thread](/images/ForumThread.png)](https://forums.unrealengine.com/showthread.php?129826-Heavy-Wizards-Radar-C-UMG-plugin&highlight=Heavy+WIzards)
