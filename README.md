@@ -28,9 +28,8 @@ This is also the place to submit any technical issues (bugs) or feature requests
 ##Key concepts:##
 ###Widget###
 
-The radar widget itself is an UBorder that on the top level manages all of the aspects of the Heavy Wizards Radar.
-Specific tasks are usually delegated to other classes listed below. The only very specific task that’s the responsibility of the widget is adding and managing arrows on the parent UCanvasPanel because
-it is the closest entity to the task. The widget keeps track of all the necessary data and performs memory management. Since widget is an UBorder it provides click/touch events out of the box.
+The radar widget itself is an UCanvasPanel containing an UBorder that on the top level manages all of the aspects of the **Heavy Wizards Radar**. Specific tasks are usually delegated to other classes listed below. The only very specific task that’s the responsibility of the widget is adding and managing arrows on the parent UCanvasPanel because
+it is the closest entity to the task. The widget keeps track of all the necessary data and performs memory management. Since widget is mainly an UBorder it provides click/touch events out of the box.
 
 ####Defaults####
 
@@ -111,7 +110,7 @@ Schemes are mostly concerned with material handling. A scheme has 8 potential ov
 * *OnCreateArrowMaterial*, called once an arrow material is created which can happen according to the *ShouldPointToActor*.
 Both the UCanvasPanelSlot and the material are destroyed if *ShouldPointToActor* returns false.
 
-####Overrides called periodically by an interval which work at the 3nd level above the map####
+####Overrides called periodically by an interval which work at the 3rd level above the map####
 
 #####These overrides trump all on the other levels#####
 
@@ -121,3 +120,5 @@ Both the UCanvasPanelSlot and the material are destroyed if *ShouldPointToActor*
 *	*ShouldMoveMap* signals whether the representation of this particular map should move together with the pivot.
 
 [![Heavy Wizards Radar Forum Thread](/images/ForumThread.png)](https://forums.unrealengine.com/showthread.php?129826-Heavy-Wizards-Radar-C-UMG-plugin&highlight=Heavy+WIzards)
+[![Basics Videol Tutorial](/images/BasicsTutorial.png)](https://www.youtube.com/watch?v=Bn-_tayO3pw)
+[![Advanced Videol Tutorial](/images/AdvancedTutorial.png)](https://www.youtube.com/watch?v=bKVpsYQyZzI)
