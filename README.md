@@ -9,8 +9,8 @@ It contains all the documentation, tutorials, examples and external links necess
 This is also the place to submit any technical issues (bugs) or feature requests.
 
 ##Main features:##
-* Customization: nearly anything can be tweaked.
-* Scalability: works for any type of game where a 2D mini-map & radar is appropriate (side-scrollers are supported). Works on any platform.
+* Customization: nearly anything can be tweaked. Many maps can be placed: a typical example would be a building with many floors - every time a player enters a floor **Heavy Wizards Radar** loads the map to that floor automatically.
+* Scalability: works for any type of game where a 2D mini-map & radar is appropriate (side-scrollers are supported). Works on any platform. Maps can be oriented in any way one wishes.
 * Precision: every map has a world representation to properly project actors & environment onto the radar.
 * Power: all graphics is material based making the imagination the sole limitation of how the radar will look.
 * Convenience: provides many out of the box features.
@@ -19,7 +19,7 @@ This is also the place to submit any technical issues (bugs) or feature requests
 ##In-depth features:##
 * A map box is placed in a world and can be moved, rotated & scaled in any way to fit the actual map to the world.
 * Actors with overlap events enabled & within a map box will be rendered according to a dynamic material that can be tweaked at any point.
-* Schemes are used to customize which actors are rendered & material rendering.
+* Schemes are used to customize which actors are rendered & their material handling.
 * The map can be zoomed in & out to one's digression which is not bound to any particular method like using the mouse wheel.
 * An option to add arrows pointing to actors which will by default be drawn on the edges of the radar, but that behavior can be overridden.
 * Deproject click & touch events onto the map plane which is derived from the map normal, its rotation & position.
